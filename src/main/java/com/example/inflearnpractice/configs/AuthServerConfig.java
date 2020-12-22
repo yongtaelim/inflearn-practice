@@ -18,8 +18,8 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
     private final PasswordEncoder passwordEncoder;
     private final AuthenticationManager authenticationManager;
-    private AccountService accountService;
-    private TokenStore tokenStore;
+    private final AccountService accountService;
+    private final TokenStore tokenStore;
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {

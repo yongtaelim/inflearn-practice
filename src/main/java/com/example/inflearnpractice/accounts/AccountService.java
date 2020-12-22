@@ -13,7 +13,6 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AccountService implements UserDetailsService {
     private final AccountRepository accountRepository;
-    private final PasswordEncoder passwordEncoder;
 
 
     @Override
