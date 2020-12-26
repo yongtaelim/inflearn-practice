@@ -14,38 +14,48 @@ public class Operator {
 //        논리연산자();
 //        instanceofTest();
 //        assignmentTest();
-        lamdaTest();
-
+//        lamdaTest();
+        삼항연산자();
     }
 
+    private static void 삼항연산자() {
+        String a = "a";
+
+        System.out.println("a == a -> " + (a == "a" ? true : false));
+        System.out.println("a == b -> " + (a == "b" ? true : false));
+
+        boolean c = a == "b" ? a == "c" ? false : true : false;
+    }
 
 
     private static void assignmentTest() {
         int a = 8;
         int b = 3;
 
-        System.out.println("a = b -> " + (a = b));private static void lamdaTest() {
-            Test1 test1 = new Test1();
-            test1.addTestInterface(new TestInterface() {
-                @Override
-                public void addTestListener(Object o) {
-                    System.out.println("add Test lister = " + o);
-                }
-            });
-            test1.callInterface("not use lamda");
-
-
-            Test1 test2 = new Test1();
-            test2.addTestInterface(testLister -> {
-                System.out.println("add Test lister lamda = " + testLister);
-            });
-            test2.callInterface("use lamda");
-        }
+        System.out.println("a = b -> " + (a = b));
         System.out.println("a += b -> " + (a += b));    // a = a + b
         System.out.println("a -= b -> " + (a -= b));    // a = a - b
         System.out.println("a *= b -> " + (a *= b));    // a = a * b
         System.out.println("a /= b -> " + (a /= b));    // a = a / b
         System.out.println("a %= b -> " + (a &= b));    // a = a & b
+    }
+
+    private static void lamdaTest() {
+        Test1 test1 = new Test1();
+        test1.addTestInterface(new TestInterface() {
+            @Override
+            public void addTestListener(Object o) {
+                System.out.println("add Test lister = " + o);
+            }
+        });
+        test1.callInterface("not use lamda");
+
+
+        Test1 test2 = new Test1();
+        test2.addTestInterface(testLister -> {
+            System.out.println("add Test lister lamda = " + testLister);
+        });
+        test2.callInterface("use lamda");
     }
 
     public void expressions() {
