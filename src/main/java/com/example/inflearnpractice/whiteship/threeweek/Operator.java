@@ -15,7 +15,54 @@ public class Operator {
 //        instanceofTest();
 //        assignmentTest();
 //        lamdaTest();
-        삼항연산자();
+//        삼항연산자();
+        switchTest("a");
+    }
+
+    private static void switchTest(String a) {
+        // basic switch
+        switch (a) {
+            case "a" :
+                System.out.println("a");
+                break;
+            case "b" :
+                System.out.println("b");
+                break;
+            case "c":
+                System.out.println("c");
+                break;
+            default:
+                System.out.println("default");
+        }
+
+        // multi switch
+//        switch (a) {
+//            case "a", "b":
+//                System.out.println("a or b");
+//                break;
+//            case "c", "d":
+//                System.out.println("c or d");
+//                break;
+//            default:
+//                System.out.println("default");
+//        }
+
+        // arrow switch
+//        switch (a) {
+//            case "a" -> System.out.println("a");
+//            case "b" -> System.out.println("b");
+//            case "c" -> System.out.println("c");
+//            default:
+//                System.out.println("defalut");
+//        }
+
+        // expression
+//        String result = switch (a) {
+//            case "a" -> "TextA";
+//            case "b" -> "TextB";
+//            case "c" -> "TextC";
+//            default -> "default";
+//        }
     }
 
     private static void 삼항연산자() {
