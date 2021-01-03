@@ -12,19 +12,18 @@ public class Multi {
 
         for (int i = 0; i < loopCount; i++) {
             CompletableFuture<Integer> completableFuture = new CompletableFuture<>();
-            completableFuture.
-             multiRun(completableFuture);
+            multiRun(completableFuture);
 
         }
     }
 
     @Async
     public void multiRun(CompletableFuture<Integer> completableFuture) throws InterruptedException {
-        log.info("multi start index : " + index);
-        Thread.sleep(3000L);
-        log.info("multi end index : " + index);
-        CompletableFuture<Integer> completableFuture = new CompletableFuture<>();
-        completableFuture.complete(index);
+//        log.info("multi start index : " + index);
+//        Thread.sleep(3000L);
+//        log.info("multi end index : " + index);
+//        CompletableFuture<Integer> completableFuture = new CompletableFuture<>();
+//        completableFuture.complete(index);
 
     }
 }
