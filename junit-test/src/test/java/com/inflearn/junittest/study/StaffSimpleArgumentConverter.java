@@ -1,5 +1,6 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
+import com.inflearn.junittest.study.Staff;
 import org.junit.jupiter.params.converter.ArgumentConversionException;
 import org.junit.jupiter.params.converter.SimpleArgumentConverter;
 

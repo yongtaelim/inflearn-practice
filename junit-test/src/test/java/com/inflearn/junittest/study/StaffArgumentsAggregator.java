@@ -1,5 +1,6 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
+import com.inflearn.junittest.study.Staff;
 import org.junit.jupiter.api.extension.ParameterContext;
 import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
 import org.junit.jupiter.params.aggregator.ArgumentsAggregationException;

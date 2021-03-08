@@ -1,5 +1,7 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
+import com.inflearn.junittest.study.Store;
+import com.inflearn.junittest.study.StoreStatus;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

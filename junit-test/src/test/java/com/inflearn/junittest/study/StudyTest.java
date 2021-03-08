@@ -1,5 +1,6 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
+import com.inflearn.junittest.study.Study;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;

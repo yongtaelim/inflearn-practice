@@ -1,4 +1,4 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;

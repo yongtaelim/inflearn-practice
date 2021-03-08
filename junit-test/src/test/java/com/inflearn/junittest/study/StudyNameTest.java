@@ -1,4 +1,4 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;

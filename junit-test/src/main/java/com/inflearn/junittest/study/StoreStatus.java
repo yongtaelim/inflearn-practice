@@ -1,4 +1,4 @@
-package com.inflearn.junittest;
+package com.inflearn.junittest.study;
 
 public enum StoreStatus {
     OPEN, CLOSE
