@@ -1,2 +1,4 @@
-package com.inflearn.junittest.mockitos.domain;public class Zoo {
+package com.inflearn.junittest.mockitos.domain;
+
+public class Zoo {
 }

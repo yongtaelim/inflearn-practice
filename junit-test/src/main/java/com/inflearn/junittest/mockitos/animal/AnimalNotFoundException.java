@@ -1,2 +1,6 @@
-package com.inflearn.junittest.mockitos.animal;public class AnimalNotFoundException {
+package com.inflearn.junittest.mockitos.animal;
+
+public class AnimalNotFoundException extends Exception {
+
 }
+
