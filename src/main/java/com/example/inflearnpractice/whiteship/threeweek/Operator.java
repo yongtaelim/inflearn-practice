@@ -1,10 +1,6 @@
 package com.example.inflearnpractice.whiteship.threeweek;
 
 import com.example.inflearnpractice.accounts.Account;
-import org.springframework.util.ObjectUtils;
-
-import java.util.Optional;
-import java.util.function.Function;
 
 public class Operator {
     public static void main(String[] args) {
