@@ -86,7 +86,7 @@ class ZooServiceTest {
         inOrder.verify(animalService).findById(any());
         inOrder.verify(animalService).notify(any());
 
-        // 더이상 animaService를 호출하지 않겠다.
+        // 더이상 animalService를 호출하지 않겠다.
         verifyNoInteractions(animalService);
     }
 }
